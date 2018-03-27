@@ -20,7 +20,7 @@ body {
 
 }
 #wrapper {
-	background-image: url("../image/enfant_muse.jpg");
+	background-image: url("../image/background_image.jpg");
 	height: 450px;
 	background-size: cover;
 	text-align: center;
@@ -41,13 +41,19 @@ body {
 }
 
 #paint {
-	background-image: url(../image/child.jpg);
+	/*background-image: url(../image/child.jpg);*/
 	border: 30px solid black;
-	margin-left: 300px;
-	margin-right: 300px;
-	height: 1000px;
-	background-size: cover;
+	/*margin-left: 300px;
+	margin-right: 300px;*/
+	/*height: 1000px;*/
+	/*background-size: cover;*/
 
+}
+
+.legend {
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 12px;
 }
 
 .spacer {
@@ -56,7 +62,13 @@ height: 8em;
 
 .feature p {
 	padding-top: 75px;
-	font-weight: 300;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.feature2 p {
+	padding-top: 10px;
+	font-weight: 400;
 	letter-spacing: 2px;
 }
 
