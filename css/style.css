@@ -1,5 +1,5 @@
 body {
-	font-family : "Open Sans";
+	font-family : 'Open Sans', sans-serif;
 }
 
 #footer {
@@ -16,8 +16,18 @@ body {
 }
 
 #footer a:hover {
-	color: black;
+	color: #70c24a;
 
+
+}
+#yo a{
+	color:#aaaaaa;
+	font-size : 34px;
+	text-align: center;
+}
+#yo a:hover {
+	color:#70c24a;
+	text-decoration: none;
 }
 #wrapper {
 	background-image: url("../image/background_image.jpg");
@@ -28,6 +38,16 @@ body {
 	color: white;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
+
+}
+
+
+
+a {
+	color:#70c24a;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline;
 
 }
 
@@ -50,14 +70,32 @@ body {
 
 }
 
+h4 {
+	color: #70c24a;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-weight: bold;
+
+}
+
 .legend {
 	font-weight: 300;
 	letter-spacing: 2px;
 	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.logo  {
+	box-shadow: 0px 0px 1px black;
 }
 
 .spacer {
 height: 8em;
+}
+
+.spacer2 {
+	height: 4em;
 }
 
 .feature p {
@@ -67,6 +105,7 @@ height: 8em;
 }
 
 .feature2 p {
+	font-family: "Open Sans"
 	padding-top: 10px;
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -110,3 +149,5 @@ height:400px;
 background-color:#5f666d;
 color:white;
 }
+
+
