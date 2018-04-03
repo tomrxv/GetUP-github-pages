@@ -40,7 +40,7 @@ const exportDonations = async () => {
 	let data = "firstname;lastname;email;donation;date\r\n"
 	for(let donation of donations) {
 		let date = new Date(donation.date)
-		data += `${donation.firstname};${donation.lastname};${donation.email};${date.toLocaleDateString()}\r\n`
+		data += `${donation.firstname};${donation.lastname};${donation.email};${donation.amount};${date.toLocaleDateString()}\r\n`
 	}
 	return data
 }
