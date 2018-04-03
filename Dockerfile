@@ -2,7 +2,7 @@ FROM node:9-alpine
 
 RUN apk --no-cache add git && adduser -D app
 WORKDIR /home/app
-VOLUME /home/app
+COPY . .
 RUN chown app:app /home/app -R
 USER app
 
